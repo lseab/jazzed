@@ -64,9 +64,6 @@ class Playlist:
     @classmethod
     def test_playlist(cls):
         return cls([
-            os.path.join(r'D:\My documents\Sénégal\Chorales\Fadiouth\Wav', r'0. Entrée.wav'),
-            os.path.join(r'D:\My documents\Sénégal\Chorales\Fadiouth\Wav', r'1. Ta parole.wav'),
-            os.path.join(r'D:\My documents\Sénégal\Chorales\Fadiouth\Wav', r'2..wav'),
-            os.path.join(r'D:\My documents\Sénégal\Chorales\Fadiouth\Wav', r'6.1.wav'),
-            os.path.join(r'D:\My documents\Sénégal\Chorales\Fadiouth\Wav', r'7..wav')
+            # Add audio tracks here
+            # They will be automatically loaded into your UI
         ])
