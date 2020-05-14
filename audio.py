@@ -8,7 +8,6 @@ from playlist import Playlist, LoadError
 class AudioInterface():
 
     def __init__(self):
-        super(AudioInterface, self).__init__()
         self._audio_file_length = 0
         self._stopped = True
         self._volume = 100.0
